@@ -24,13 +24,13 @@ Este laboratório ensina como containerizar uma aplicação Python, que gera log
 2. **Executar o Container:**
 
    ```bash
-   docker run -d --name py-docker-logs py-docker-logs .
+   docker run -d --name py-docker-logs py-docker-logs
 
    ```
 
 3. **Visualizar os Logs:**
    ```bash
-   docker logs -f py-docker-logs .
+   docker logs -f py-docker-logs
    ```
 
 ## CATEGORIAS:
